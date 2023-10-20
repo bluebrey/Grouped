@@ -69,7 +69,7 @@ const SignUp = () => {
                                 <label htmlFor="" className="absolute text-lg text-black duration-300 transform -translate-y-6 scale-75 top-3 -x-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm Password</label>
                                 <AiOutlineUnlock className="absolute top-4 right-4" />
                             </div>
-                            <button className="w-full mb-4 text-[25px] mt-6 rounded-full bg-yellow-500 text-black font-bold hover:bg-yellow-600 hover:text-white py-2 transition-colors duration-300" type="submit">Sign In</button>
+                            <button className="w-full mb-4 text-[25px] mt-6 rounded-full bg-yellow-500 text-black font-bold hover:bg-yellow-600 hover:text-white py-2 transition-colors duration-300" type="submit">Create Account</button>
                         </form>
                     </div>
                     <div className='p-8' style={{marginTop:'20px'}}>
