@@ -22,8 +22,7 @@ export default function App() {
   return (
     <div className="flex flex-col h-screen bg-slate-300">
       {/* Conditionally render a Header component */}
-{/*       {isHeaderVisible && */}
-{/*         (isIndividualCalendar ? <CalendarHeader /> : <Header />)} */}
+      {/* {isHeaderVisible && (isIndividualCalendar ? <CalendarHeader /> : <Header />)} */}
       {isHeaderVisible && <Header/>}
       {/* Main Content */}
       <div className="h-full [&>div]:min-h-full bg-slate-300">

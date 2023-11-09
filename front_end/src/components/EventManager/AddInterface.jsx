@@ -68,7 +68,7 @@ const AddInterface = ({ onClose, onDelete, onSave, selectedEvent, fromCalendar }
               isSelfSelected ? 'bg-cyan-200 text-black' : 'text-black'
             }`}
             onClick={toggleSelf}
-          >
+            >
             Self
           </button>
           <button
@@ -77,7 +77,7 @@ const AddInterface = ({ onClose, onDelete, onSave, selectedEvent, fromCalendar }
               isGroupSelected ? 'bg-cyan-200 text-black' : 'text-black'
             }`}
             onClick={toggleGroup}
-          >
+            >
             Group
           </button>
         </div>
@@ -133,10 +133,9 @@ const AddInterface = ({ onClose, onDelete, onSave, selectedEvent, fromCalendar }
                   <button
                     className="h-12 m-2 px-6 bg-red-400 text-white rounded-md hover:bg-red-500"
                     onClick={onDelete}
-                  >
-                    Delete
+                  > Delete
                   </button>
-                  )}
+              )}
             </div>
         </div>
       </div>

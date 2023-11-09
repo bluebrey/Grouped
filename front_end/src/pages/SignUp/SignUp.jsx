@@ -116,9 +116,7 @@ const SignUp = () => {
   return (
     <div className="bg-slate-300">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-6xl text-black font-bold text-center p-8">
-          Sign Up
-        </h1>
+        <h1 className="text-6xl text-black font-bold text-center p-8">Sign Up</h1>
         <br />
         <div className="flex flex-col items-center">
           <div
@@ -143,13 +141,10 @@ const SignUp = () => {
                 <label
                   htmlFor="email"
                   className="absolute text-lg text-black duration-300 transform -translate-y-6 scale-75 top-3 -x-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                  Your Email
+                >Your Email
                 </label>
-                <BiUser className="absolute top-4 right-4" />
-                <span className="block w-80 text-red-700">
-                  {errors.email?.message}
-                </span>
+                <BiUser className="absolute top-4 right-4"/>
+                <span className="block w-80 text-red-700">{errors.email?.message}</span>
               </div>
               {/* Username */}
               <div className="relative my-4">
@@ -163,13 +158,9 @@ const SignUp = () => {
                 <label
                   htmlFor="username"
                   className="absolute text-lg text-black duration-300 transform -translate-y-6 scale-75 top-3 -x-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                  Your Username
-                </label>
+                >Your Username</label>
                 <BiUser className="absolute top-4 right-4" />
-                <span className="block w-80 text-red-700">
-                  {errors.username?.message}
-                </span>
+                <span className="block w-80 text-red-700">{errors.username?.message}</span>
               </div>
               {/* Password */}
               <div className="relative my-4">
@@ -183,13 +174,9 @@ const SignUp = () => {
                 <label
                   htmlFor="password"
                   className="absolute text-lg text-black duration-300 transform -translate-y-6 scale-75 top-3 -x-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                  Your Password
-                </label>
+                >Your Password</label>
                 <AiOutlineUnlock className="absolute top-4 right-4" />
-                <span className="block w-80 text-red-700">
-                  {errors.password?.message}
-                </span>
+                <span className="block w-80 text-red-700">{errors.password?.message}</span>
               </div>
               {/* Confirm Password */}
               <div className="relative my-4">
@@ -203,29 +190,21 @@ const SignUp = () => {
                 <label
                   htmlFor="confirm-password"
                   className="absolute text-lg text-black duration-300 transform -translate-y-6 scale-75 top-3 -x-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
-                >
-                  Confirm Password
-                </label>
+                >Confirm Password</label>
                 <AiOutlineUnlock className="absolute top-4 right-4" />
-                <span className="block w-80 text-red-700">
-                  {errors.confirmPassword?.message}
-                </span>
+                <span className="block w-80 text-red-700">{errors.confirmPassword?.message}</span>
               </div>
               {/* Button */}
               <button
                 className="w-full mb-4 text-[25px] mt-6 rounded-full bg-yellow-500 text-black font-bold hover:bg-yellow-600 hover:text-white py-2 transition-colors duration-300"
                 type="submit"
-              >
-                Create Account
-              </button>
+              >Create Account</button>
             </form>
           </div>
           {/* Login Link */}
           <div>
             <span className="m-12">
-              <Link className="text-blue-500 text-3xl font-bold flex" to="/login">
-                Have an Account?
-              </Link>
+              <Link className="text-blue-500 text-3xl font-bold flex" to="/login">Have an Account?</Link>
             </span>
           </div>
         </div>
