@@ -3,7 +3,7 @@
 A collaborative planning platform for groups, organization, and teams.
 
 <img src='front_end/src/assets/grouped.png' alt='grouped.png' style='width:50%; height:auto;'>
-<img src='media/preview.gif' alt='preview.png' style='width:100%; height:auto;'>
+<img src='media/preview.gif' alt='preview.gif' style='width:100%; height:auto;'>
 
 **Overview**
 Grouped is a full-stack web application designed to primarily help college students coordinate study sessions, meetings, activities, schedules, and communication within groups. Students can discover and join communities, manage events through an interactive calendar, communicate through built-in chat, and organize shared timelines.
