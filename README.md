@@ -3,7 +3,7 @@
 A collaborative planning platform for groups, organization, and teams.
 
 <img src='front_end/src/assets/grouped.png' alt='grouped.png' style='width:50%; height:auto;'>
-<img src='media/landing.png' alt='landing.png' style='width:50%; height:auto;'>
+<img src='media/preview.gif' alt='preview.png' style='width:100%; height:auto;'>
 
 **Overview**
 Grouped is a full-stack web application designed to primarily help college students coordinate study sessions, meetings, activities, schedules, and communication within groups. Students can discover and join communities, manage events through an interactive calendar, communicate through built-in chat, and organize shared timelines.
@@ -23,9 +23,9 @@ Grouped was developed as part of CSE 442 at the University at Buffalo using a Re
 - Due date management
 - Dynamic Calendar Views: Month, Week, Day, Agenda
 
-Project timelines can be used to coordinate team deliverables and dealines.
+Project timelines can be used to coordinate team deliverables and deadlines.
 
-<img src='media/dynamicCalendar.gif' alt='dynamicCalendar.gif' style='width:50%; height:auto;'>
+<img src='media/dynamicCalendar.gif' alt='dynamicCalendar.gif' style='width:100%; height:auto;'>
 
 **Event Management**: Students can create, edit, and delete events while specifying:
 
@@ -57,6 +57,6 @@ Databse: SQL
 
 ## Contributors
 
-Lorraine Gao
-Neil Bae
-Sovinder Singh
+- Lorraine Gao
+- Neil Bae
+- Sovinder Singh
