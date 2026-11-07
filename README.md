@@ -2,8 +2,8 @@
 
 A collaborative planning platform for groups, organization, and teams.
 
-![alt text](front_end/src/assets/grouped.png)
-![alt text](media/landing.png)
+<img src='front_end/src/assets/grouped.png' alt='grouped.png' style='width:50%; height:auto;'>
+<img src='media/landing.png' alt='landing.png' style='width:50%; height:auto;'>
 
 **Overview**
 Grouped is a full-stack web application designed to primarily help college students coordinate study sessions, meetings, activities, schedules, and communication within groups. Students can discover and join communities, manage events through an interactive calendar, communicate through built-in chat, and organize shared timelines.
@@ -14,8 +14,8 @@ Grouped was developed as part of CSE 442 at the University at Buffalo using a Re
 
 **Group Discovery & Membership**: Students can browse available groups, search for communities, create new groups, and join existing organizations. The platform maintains a personal list of joined groups for quick access.
 
-![alt text](media/groups.gif)
-![alt text](media/groupSearch.gif)
+<img src='media/groups.gif' alt='groups.gif' style='width:50%; height:auto;'>
+<img src='media/groupSearch.gif' alt='groupSearch.gif' style='width:50%; height:auto;'>
 
 **Shared Project & Event Timeline**: Each group has access to a collaborative calendar system supporting:
 
@@ -25,7 +25,7 @@ Grouped was developed as part of CSE 442 at the University at Buffalo using a Re
 
 Project timelines can be used to coordinate team deliverables and dealines.
 
-![alt text](media/dynamicCalendar.gif)
+<img src='media/dynamicCalendar.gif' alt='dynamicCalendar.gif' style='width:50%; height:auto;'>
 
 **Event Management**: Students can create, edit, and delete events while specifying:
 
@@ -34,20 +34,20 @@ Project timelines can be used to coordinate team deliverables and dealines.
 - Description
 - Visibility scope: Personal, Group, Organization
 
-![alt text](media/calendarCreate.gif)
-![alt text](media/calendarDelete.gif)
+<img src='media/calendarCreate.gif' alt='calendarCreate.gif' style='width:50%; height:auto;'>
+<img src='media/calendarDelete.gif' alt='calendarDelete.gif' style='width:50%; height:auto;'>
 
 **Profile Management**: Students can maintain a personal profile and modify account information through the application.
 
-![alt text](media/modifyProfile.gif)
+<img src='media/modifyProfile.gif' alt='modifyProfile.gif' style='width:50%; height:auto;'>
 
 **Calendar Filtering**: To improve scheduling visibility, events can be filtered to display only information relevant to the student. This becomes especially useful when managing numerous groups and events simultaneously.
 
-![alt text](media/filter.gif)
+<img src='media/filter.gif' alt='filter.gif' style='width:50%; height:auto;'>
 
 **Group Chat**: Integrated chat functionality that enables students to communicate without leaving the platform.
 
-![alt text](media/chat.gif)
+<img src='media/chat.gif' alt='chat.gif' style='width:50%; height:auto;'>
 
 ## Tech Stack
 
