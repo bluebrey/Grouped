@@ -51,9 +51,9 @@ Project timelines help coordinate team deliverables and deadlines.
 
 ## Tech Stack
 
-Frontend: React and Tailwind CSS
-Backend: PHP
-Databse: SQL
+- Frontend: React and Tailwind CSS
+- Backend: PHP
+- Databse: SQL
 
 ## Contributors
 
